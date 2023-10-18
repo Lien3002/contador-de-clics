@@ -24,10 +24,10 @@ body {
   margin: 20px;
 }
 .freelogo{
-  height: 50px;
+  height: 100px;
 }
 .contenedorPrincipal{
-  height: 550px;
+  height: 55px;
   min-width: 600px;
   display: flex;
   flex-wrap: wrap;

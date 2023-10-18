@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import logo1 from "./imagenes/logo1.jpg";
 import  Boton  from "./componetes/boton.jsx";
+import './hojas-de-estilo/Botones.css';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,12 +20,12 @@ function App() {
       <div className="contenedorPrincipal">
         <Boton
           texto='Clic'
-          esBotonClic='{true}' 
+          esBotonClic={true} 
           manejarClic={manejarClic}>
         </Boton>
         <Boton
           texto='Reiniciar' 
-          esBotonClic='{false}' 
+          esBotonClic={false} 
           manejarClic={reiniciarClic}>
         </Boton>
       </div>
