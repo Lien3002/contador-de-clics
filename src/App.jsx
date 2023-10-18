@@ -3,6 +3,7 @@ import "./App.css";
 import logo1 from "./imagenes/logo1.jpg";
 import  Boton  from "./componetes/boton.jsx";
 import './hojas-de-estilo/Botones.css';
+import Contador from "./componetes/contador.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,6 +24,7 @@ function App() {
           esBotonClic={true} 
           manejarClic={manejarClic}>
         </Boton>
+        <Contador numClics={5}></Contador>
         <Boton
           texto='Reiniciar' 
           esBotonClic={false} 
