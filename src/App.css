@@ -16,17 +16,17 @@ body {
   padding-top: 15px;
   font-family: sans-serif, Lucida Sans;
 }
-.logo-contenedor{
+.logo-contenedor {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px;
 }
-.freelogo{
-  height:100px;
+.freelogo {
+  height: 100px;
 }
-.contenedorPrincipal{
+.contenedorPrincipal {
   height: 500px;
   min-width: 600px;
   display: flex;
