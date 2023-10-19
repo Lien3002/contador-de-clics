@@ -8,11 +8,12 @@ import "./hojas-de-estilo/contador.css"
 
 function App() {
   const [count, setCount] = useState(0);
+
   const manejarClic = () => {
-    console.log("clic");
+    setCount(count+1);
   };
   const reiniciarClic = () => {
-    console.log("onClic");
+    setCount(0);
   };
   return (
     <div className="App">
@@ -20,7 +21,7 @@ function App() {
         <img className="freelogo" src={logo1} alt="Logo de free code" />
       </div>
       <div className="contenedorPrincipal">
-        <Contador numClics={5}></Contador>
+        <Contador numClics={count}></Contador>
         <Boton
           texto='Clic'
           esBotonClic={true} 
